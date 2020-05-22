@@ -1,0 +1,5 @@
+solve:
+cat /usr/bin/cronjob_bandit22.sh 
+cat /tmp/t706....
+
+password: Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
