@@ -1,0 +1,12 @@
+The password for the next level is stored in the file data.txt, which is a hexdump of a file that has been repeatedly compressed. For this level it may be useful to create a directory under /tmp in which you can work using mkdir. For example: mkdir /tmp/myname123. Then copy the datafile using cp, and rename it using mv (read the manpages!)
+
+solve: 
+xxd -r data.txt > bandit (reverse hexdump and sent to output to a file)
+
+file bandit (gzip compress)
+gzip -d bandit 
+(bzip compress)
+bzip -d bandit
+tar -xf bandit(POSIX tar archive)
+
+8ZjyCRiBWFYkneahHwxCv3wb2a1ORpYL
